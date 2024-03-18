@@ -11,7 +11,7 @@
             //Console.WriteLine(vehicle1.ToString());
 
             Land land1 = new Land("Purple",4 );
-            Console.WriteLine(land1.ToString());
+            //Console.WriteLine(land1.ToString());
 
             Air air1 = new Air("Green");
             //Console.WriteLine(air1.ToString());
@@ -28,7 +28,9 @@
             vehicles.Add(vehicle1);
             vehicles.Add(air1);
             vehicles.Add(helicopter1);
-            vehicles.Add(plane);
+            vehicles.Add(plane1);
+            vehicles.Add(sea1);
+            vehicles.Add(land1);
 
             foreach (Vehicle v in vehicles)
             {
