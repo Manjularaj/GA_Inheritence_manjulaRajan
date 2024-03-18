@@ -6,10 +6,24 @@ using System.Threading.Tasks;
 
 namespace GA_Inheritence_manjulaRajan
 {
-    //public class Air :Vehicle
-    //{
-        //public Air();
+    public class Air :Vehicle
+    {
+        public Air() : base("uu")
+        {
 
 
-   // }
+        }
+
+        public Air(string color) : base(color)
+        {
+        }
+
+        public enum SeaType
+        {
+            Boat,
+            Submarine
+
+        }
+
+    }
 }

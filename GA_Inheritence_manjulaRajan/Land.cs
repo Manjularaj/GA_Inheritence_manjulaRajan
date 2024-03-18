@@ -8,19 +8,21 @@ namespace GA_Inheritence_manjulaRajan
 {
     public class Land :Vehicle
     {
-        private int wheels;
+        private int _wheels;
 
         public Land(string color, int wheels) : base(color)
         {
-            -
-            _wheels = wheels;
+          _wheels = 4;
         }
 
-        public int Wheels { get => wheels; set => wheels = value; }
+        public int Wheels { get => _wheels; set => _wheels = value; }
 
         public override string ToString()
         {
             return $"{base.ToString()} - Number of Wheels {Wheels}";
+
+           
+
         }
     }//class
 
