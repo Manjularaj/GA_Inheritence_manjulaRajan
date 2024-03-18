@@ -6,11 +6,12 @@
         {
 
 
-            Vehicle vehicle = new Vehicle("Red");
+            Vehicle vehicle1= new Vehicle("Red");
+            Land land = new Land("Purple",4);
             Sea sea = new Sea("orange", "Submarine");
 
 
-            Console.WriteLine(vehicle.ToString());
+            Console.WriteLine(vehicle1.ToString());
 
 
         }//Main

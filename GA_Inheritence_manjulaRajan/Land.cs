@@ -12,7 +12,8 @@ namespace GA_Inheritence_manjulaRajan
 
         public Land(string color, int wheels) : base(color)
         {
-            this.Wheels = wheels;
+            -
+            _wheels = wheels;
         }
 
         public int Wheels { get => wheels; set => wheels = value; }

@@ -23,7 +23,9 @@ namespace GA_Inheritence_manjulaRajan
         {
 
 
-            return $" {this.GetType().Name}- {Color}";
+            //return $"this.GetType().Name-(Color)";
+
+            return $"{this.GetType().Name} - {_color}";
 
         }
       
